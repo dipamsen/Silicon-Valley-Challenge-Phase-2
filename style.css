@@ -1,0 +1,363 @@
+form{
+    border: solid;
+    /* position: fixed; */
+    width: 40%;
+    min-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.1s ease;
+    /* height: 50%; */
+    font-size: x-large;
+    /* justify-content: center; */
+}
+.formname{
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s ease;
+
+}
+.formname i{
+    float: right;
+    transition: 0.3s ease;
+}
+.formname.active{
+    border-bottom: 1px solid black;
+}
+.fullform{
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+.form{
+    transition: 0.3s ease;
+}
+.login{
+    font-size: larger;
+    border-color: black;
+    padding: 10px 20px;
+    border-style: single;
+    background: transparent;
+    transition: 0.3s ease;
+}
+.login:hover{
+    background-color: black;
+    color: white;
+}
+ul.navbar li a{
+    padding: 10px 10px;
+    margin: 5px;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    border: solid black;
+    transition: 0.4s ease;
+}
+.resources{
+    max-width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid;
+}
+.resources h1{
+    background-color: silver;
+    padding: 10;
+    margin: 0;
+    border-bottom: solid 1px;
+}
+.form{
+    display: none;
+    margin: auto;
+}
+.headfont{
+    font-family: 'Pacifico', cursive;
+}
+.resources .links{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.resources .body{
+    text-align: center;
+    margin: 10px;
+}
+.resource{
+    display: none;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.pink{
+    background-color: pink;
+}
+.lightcoral{
+    background-color: lightcoral;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.skyblue{
+    background-color: skyblue;
+}
+ul.navbar li a:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.navlink.active{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.drawers{
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+/* .links{
+    border-top: 1px solid black;
+} */
+.drawers button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    display: block;
+    transition: 0.3s ease;
+    padding: 0px 20px;
+    /* height: 30px; */
+}
+.drawers button:hover{
+    background-color: #ddd;
+}
+.resource li a{
+    text-decoration: none;
+    color: black;
+}
+.legend{
+    display: flex;
+    justify-content: center;
+}
+/* *{
+    border: solid black;
+} */
+.legend div{
+    margin: 8px;
+    margin-top: none;
+    margin-bottom: none;
+    /* border: 1px solid black; */
+    display: flexbox;
+    justify-content: space-evenly;
+}
+i{
+    margin: 5px;
+}
+.center{
+    text-align: center;
+}
+.morem{
+    font-size: 1.5em;
+}
+.resource li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.drawers button.active{
+    background-color: #ccc;
+}
+.drawer-content{
+    display: none;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: auto;
+    transition: 3s ease;
+}
+.hombloks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hb1 h3{
+    background-color: lawngreen;
+}
+.hb2 h3{
+    background-color: lightseagreen;
+}
+.hb3 h3{
+    background-color: magenta;
+}
+.homeblok{
+    min-width: 400px;
+    width: 33%;
+    border: solid 1px;
+    display: ruby;
+    margin: 10px;
+}
+.homeblok h3{
+    padding: 10px;
+    margin: auto;
+    display: block;
+    /* background-color: lawngreen; */
+    border-bottom: solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.homeblok li {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+.homeblok hr {
+    list-style-type: none;
+    
+    display: block;
+    margin: 0;
+    /* padding: 10px; */
+}
+.content{
+    max-width: 60%;
+    margin: auto;
+}
+.txt{
+    max-width: 80%;
+    margin: auto;
+}
+ul.navbar{
+    list-style-type: none;
+    /* flex: 1; */
+    display: flex;
+    justify-items: stretch;
+    flex-wrap: wrap;
+    top: -120;
+    position: relative;
+    /* float: right; */
+}
+.logo2{
+    max-width: 100%;
+    width: 300px
+}
+
+.header{
+    /* max-width: 1200px; */
+    margin: auto;
+    display: flex;
+    justify-content: safe;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.header img{
+    /* height: 110px; */
+    margin: auto
+}
+.header div{
+    margin: auto;
+}
+/* *{
+    border: solid;
+} */
+.head {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+table {
+    margin: auto;
+    max-width: 100%;
+}
+td{
+    padding: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.input{
+    width: 80%;
+    height: 30px;
+    /* border-radius: 30px; */
+    /* padding: 0 70px; */
+    left: 10%;
+    position: relative;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    display: flex;
+justify-content: initial;    
+margin: 8px;
+    /* border-color: black; */
+}
+.resource li i{
+    font-size: 1.5em;
+}
+
+.drawer-content li:hover{
+    background-color: 
+    #dadada;
+}
+.drawer-content li.active{
+    background-color: 
+    #c0c0c0;
+}
+.drawer-content li{
+    list-style: none;
+    padding: 13px;
+    cursor: default;
+    transition: 0.3s ease;
+}
+.resource li {
+    list-style: none;
+    margin: 10px;
+    /* border-left: 1px solid; */
+}
+hr{
+    margin: 0;
+    
+}
+input{
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    background: transparent;
+
+}
+.input:focus{
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+:focus{
+    outline: none;
+}
+/* ::placeholder{
+    color: black;
+} */
+input{
+    border: none;
+}
+.big{
+    font-size: xxx-large;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.small{
+    font-size: medium;
+}
+
+.med{
+    font-size: larger;
+}
